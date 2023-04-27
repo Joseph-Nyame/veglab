@@ -28,6 +28,7 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
+  <link href="assets/js/animate.js" rel="stylesheet">
 
   <!-- =======================================================
   * Template Name: VEGA TECHNOLOGIES - v4.11.0
@@ -44,7 +45,7 @@
     <div class="container d-flex justify-content-between align-items-center">
 
       <div class="logo">
-        <h1 class="text-light"><a href="index.html"><span>VEGA TECHNOLOGIES</span></a></h1>
+        <h2 class="text-light"><a href="index.html"><span>VEGA TECHNOLOGIES</span></a></h2>
         <!-- Uncomment below if you prefer to use an image logo -->
         <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
       </div>
@@ -53,8 +54,20 @@
         <ul>
           <li><a class="active " href="index.html">Home</a></li>
           <li><a href="about.html">About</a></li>
-          <li><a href="services.html">Services</a></li>
+          <!-- <li><a href="services.html">Services</a></li> -->
+          <li class="dropdown"><a href="#"><span>Services</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="#">Mobile App Development</a></li>
+              
+              <li><a href="#"> Websites And CMS Development</a></li>
+              <li><a href="#">Ecommerce Development</a></li>
+              <li><a href="#">Graphic Design</a></li>
+              <li><a href="#">Cloud Computing</a></li>
+              <li><a href="#"> POS Systems</a></li>
+            </ul>
+          </li>
           <li><a href="reviews.html">Reviews</a></li>
+          <li><a href="#">Blog</a></li>
           <li><a href="team.html">Team</a></li>
           
           
@@ -68,14 +81,16 @@
 
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex justify-cntent-center align-items-center">
+    
     <div id="heroCarousel" class="container carousel carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
 
       <!-- Slide 1 -->
+      
       <div class="carousel-item active">
         <div class="carousel-container">
           <h2 class="animate__animated animate__fadeInDown">Welcome to <span>VEGA TECHNOLOGIES</span></h2>
           <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
-          <a href="" class="btn-get-started animate__animated animate__fadeInUp">Read More</a>
+          <a href="" class="btn-get-started animate__animated animate__fadeInUp"> Get Free Quote</a>
         </div>
       </div>
 
@@ -84,7 +99,7 @@
         <div class="carousel-container">
           <h2 class="animate__animated animate__fadeInDown">Lorem Ipsum Dolor</h2>
           <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
-          <a href="" class="btn-get-started animate__animated animate__fadeInUp">Read More</a>
+          <a href="" class="btn-get-started animate__animated animate__fadeInUp">Get Free Quote</a>
         </div>
       </div>
 
@@ -93,7 +108,7 @@
         <div class="carousel-container">
           <h2 class="animate__animated animate__fadeInDown">Sequi ea ut et est quaerat</h2>
           <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
-          <a href="" class="btn-get-started animate__animated animate__fadeInUp">Read More</a>
+          <a href="" class="btn-get-started animate__animated animate__fadeInUp">Get Free Quote</a>
         </div>
       </div>
 
@@ -113,8 +128,12 @@
     <!-- ======= Services Section ======= -->
     <section class="services">
       <div class="container">
-
+  <div class="section-title">
+    <h2>Our Services</h2>
+   
+  </div>
         <div class="row">
+          <!-- <h2 class="text-light"><a><span>Our Services</span></a></h2> -->
           <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="fade-up">
             <div class="icon-box icon-box-blue">
               <div class="icon"><i class="fa-solid fa-mobile-button"></i></div>
